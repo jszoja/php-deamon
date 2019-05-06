@@ -1,0 +1,360 @@
+[IST May  6 21:26:15] info     :  New Monit id: a99d282900a5e825c3ec60606014ac9c
+ Stored in '/home/jan/.monit.id'
+[IST May  6 21:26:15] info     : Starting Monit 5.25.1 daemon
+[IST May  6 21:26:15] info     : 'jan-ThinkPad-T530' Monit 5.25.1 started
+[IST May  6 21:27:45] error    : 'myphp' status failed (9) -- no output
+[IST May  6 21:33:15] error    : 'myphp' program timed out after 5.500 m. Killing program with pid 12328
+[IST May  6 21:33:15] error    : 'myphp' status failed (9) -- no output
+[IST May  6 21:36:41] info     : Monit daemon with pid [12315] stopped
+[IST May  6 21:36:41] info     : 'jan-ThinkPad-T530' Monit 5.25.1 stopped
+[IST May  6 21:58:40] info     : Starting Monit 5.25.1 daemon
+[IST May  6 21:58:40] info     : 'jan-ThinkPad-T530' Monit 5.25.1 started
+[IST May  6 21:58:40] error    : 'myphp' process is not running
+[IST May  6 21:58:40] info     : 'myphp' trying to restart
+[IST May  6 21:58:40] info     : 'myphp' start: '/home/jan/dev/php/pid/myprocess.php'
+[IST May  6 21:59:10] error    : 'myphp' failed to start (exit status -1) -- Program '/home/jan/dev/php/pid/myprocess.php' timed out after 30 s
+[IST May  6 21:59:40] error    : 'myphp' process is not running
+[IST May  6 21:59:40] info     : 'myphp' trying to restart
+[IST May  6 21:59:40] info     : 'myphp' start: '/home/jan/dev/php/pid/myprocess.php'
+[IST May  6 22:00:06] error    : 'myphp' failed to start (exit status -1) -- no output
+[IST May  6 22:00:06] info     : Monit daemon with pid [13282] stopped
+[IST May  6 22:00:06] info     : 'jan-ThinkPad-T530' Monit 5.25.1 stopped
+[IST May  6 22:01:30] info     : Starting Monit 5.25.1 daemon
+[IST May  6 22:01:30] info     : 'jan-ThinkPad-T530' Monit 5.25.1 started
+[IST May  6 22:01:30] error    : 'myphp' process is not running
+[IST May  6 22:01:30] info     : 'myphp' trying to restart
+[IST May  6 22:01:30] info     : 'myphp' start: '/home/jan/dev/php/pid/myprocess.php'
+[IST May  6 22:02:00] error    : 'myphp' failed to start (exit status -1) -- Program '/home/jan/dev/php/pid/myprocess.php' timed out after 30 s
+[IST May  6 22:02:20] info     : Monit daemon with pid [13353] stopped
+[IST May  6 22:02:20] info     : 'jan-ThinkPad-T530' Monit 5.25.1 stopped
+[IST May  6 22:03:39] info     : Starting Monit 5.25.1 daemon
+[IST May  6 22:03:39] info     : 'jan-ThinkPad-T530' Monit 5.25.1 started
+[IST May  6 22:03:39] error    : 'myphp' process is not running
+[IST May  6 22:03:39] info     : 'myphp' trying to restart
+[IST May  6 22:03:39] info     : 'myphp' start: '/home/jan/dev/php/pid/myprocess.php'
+[IST May  6 22:04:09] info     : 'myphp' process is running with pid 13376
+[IST May  6 22:04:39] error    : 'myphp' process is not running
+[IST May  6 22:04:39] info     : 'myphp' trying to restart
+[IST May  6 22:04:39] info     : 'myphp' start: '/home/jan/dev/php/pid/myprocess.php'
+[IST May  6 22:05:09] info     : 'myphp' process is running with pid 13390
+[IST May  6 22:05:21] info     : Monit daemon with pid [13374] stopped
+[IST May  6 22:05:21] info     : 'jan-ThinkPad-T530' Monit 5.25.1 stopped
+[IST May  6 22:09:50] info     : Starting Monit 5.25.1 daemon
+[IST May  6 22:09:50] info     : 'jan-ThinkPad-T530' Monit 5.25.1 started
+[IST May  6 22:09:50] error    : 'myphp' process is not running
+[IST May  6 22:09:50] info     : 'myphp' trying to restart
+[IST May  6 22:09:50] info     : 'myphp' start: '/home/jan/dev/php/pid/myprocess.php'
+[IST May  6 22:10:21] info     : 'myphp' process is running with pid 13528
+[IST May  6 22:10:21] error    : 'myphp' mem amount of 7.5 MB matches resource limit [mem amount > 100 kB]
+[IST May  6 22:10:51] error    : 'myphp' process is not running
+[IST May  6 22:10:51] info     : 'myphp' trying to restart
+[IST May  6 22:10:51] info     : 'myphp' start: '/home/jan/dev/php/pid/myprocess.php'
+[IST May  6 22:11:21] info     : 'myphp' process is running with pid 13569
+[IST May  6 22:11:21] error    : 'myphp' mem amount of 7.4 MB matches resource limit [mem amount > 100 kB]
+[IST May  6 22:11:35] info     : Monit daemon with pid [13526] stopped
+[IST May  6 22:11:35] info     : 'jan-ThinkPad-T530' Monit 5.25.1 stopped
+[IST May  6 22:13:02] info     : Starting Monit 5.25.1 daemon
+[IST May  6 22:13:02] info     : 'jan-ThinkPad-T530' Monit 5.25.1 started
+[IST May  6 22:13:02] error    : 'myphp' process is not running
+[IST May  6 22:13:02] info     : 'myphp' trying to restart
+[IST May  6 22:13:02] info     : 'myphp' start: '/home/jan/dev/php/pid/myprocess.php'
+[IST May  6 22:13:33] info     : 'myphp' process is running with pid 13595
+[IST May  6 22:14:03] error    : 'myphp' process is not running
+[IST May  6 22:14:03] info     : 'myphp' trying to restart
+[IST May  6 22:14:03] info     : 'myphp' start: '/home/jan/dev/php/pid/myprocess.php'
+[IST May  6 22:14:33] info     : 'myphp' process is running with pid 13609
+[IST May  6 22:14:47] info     : Monit daemon with pid [13593] stopped
+[IST May  6 22:14:47] info     : 'jan-ThinkPad-T530' Monit 5.25.1 stopped
+[IST May  6 22:16:47] info     : Starting Monit 5.25.1 daemon
+[IST May  6 22:16:47] info     : 'jan-ThinkPad-T530' Monit 5.25.1 started
+[IST May  6 22:16:47] error    : 'myphp' process is not running
+[IST May  6 22:16:47] info     : 'myphp' trying to restart
+[IST May  6 22:16:47] info     : 'myphp' start: '/home/jan/dev/php/pid/myprocess.php'
+[IST May  6 22:17:17] info     : 'myphp' process is running with pid 13665
+[IST May  6 22:17:47] error    : 'myphp' process is not running
+[IST May  6 22:17:47] info     : 'myphp' trying to restart
+[IST May  6 22:17:47] info     : 'myphp' start: '/home/jan/dev/php/pid/myprocess.php'
+[IST May  6 22:17:51] info     : Monit daemon with pid [13663] stopped
+[IST May  6 22:17:51] info     : 'jan-ThinkPad-T530' Monit 5.25.1 stopped
+[IST May  6 22:18:43] info     : Starting Monit 5.25.1 daemon
+[IST May  6 22:18:43] info     : 'jan-ThinkPad-T530' Monit 5.25.1 started
+[IST May  6 22:18:43] error    : 'myphp' process is not running
+[IST May  6 22:18:43] info     : 'myphp' trying to restart
+[IST May  6 22:18:43] info     : 'myphp' start: '/home/jan/dev/php/pid/myprocess.php'
+[IST May  6 22:19:14] info     : 'myphp' process is running with pid 13688
+[IST May  6 22:19:14] error    : 'myphp' mem amount of 10.6 MB matches resource limit [mem amount > 7.7 MB]
+[IST May  6 22:19:44] error    : 'myphp' process is not running
+[IST May  6 22:19:44] info     : 'myphp' trying to restart
+[IST May  6 22:19:44] info     : 'myphp' start: '/home/jan/dev/php/pid/myprocess.php'
+[IST May  6 22:20:05] info     : Monit daemon with pid [13686] stopped
+[IST May  6 22:20:05] info     : 'jan-ThinkPad-T530' Monit 5.25.1 stopped
+[IST May  6 22:20:15] info     : Starting Monit 5.25.1 daemon
+[IST May  6 22:20:15] info     : 'jan-ThinkPad-T530' Monit 5.25.1 started
+[IST May  6 22:20:15] error    : 'myphp' mem amount of 10.5 MB matches resource limit [mem amount > 7.7 MB]
+[IST May  6 22:20:20] error    : 'myphp' process is not running
+[IST May  6 22:20:20] info     : 'myphp' trying to restart
+[IST May  6 22:20:20] info     : 'myphp' start: '/home/jan/dev/php/pid/myprocess.php'
+[IST May  6 22:20:25] info     : 'myphp' process is running with pid 13741
+[IST May  6 22:20:25] error    : 'myphp' mem amount of 10.5 MB matches resource limit [mem amount > 7.7 MB]
+[IST May  6 22:20:30] info     : Monit daemon with pid [13739] stopped
+[IST May  6 22:20:30] info     : 'jan-ThinkPad-T530' Monit 5.25.1 stopped
+[IST May  6 22:21:21] info     : Starting Monit 5.25.1 daemon
+[IST May  6 22:21:21] info     : 'jan-ThinkPad-T530' Monit 5.25.1 started
+[IST May  6 22:21:21] error    : 'myphp' process is not running
+[IST May  6 22:21:21] info     : 'myphp' trying to restart
+[IST May  6 22:21:21] info     : 'myphp' start: '/home/jan/dev/php/pid/myprocess.php'
+[IST May  6 22:21:26] info     : 'myphp' process is running with pid 13753
+[IST May  6 22:23:21] error    : 'myphp' process is not running
+[IST May  6 22:23:21] info     : 'myphp' trying to restart
+[IST May  6 22:23:21] info     : 'myphp' start: '/home/jan/dev/php/pid/myprocess.php'
+[IST May  6 22:23:27] info     : 'myphp' process is running with pid 13773
+[IST May  6 22:23:40] info     : Monit daemon with pid [13751] stopped
+[IST May  6 22:23:40] info     : 'jan-ThinkPad-T530' Monit 5.25.1 stopped
+[IST May  6 22:24:02] info     : Starting Monit 5.25.1 daemon
+[IST May  6 22:24:02] info     : 'jan-ThinkPad-T530' Monit 5.25.1 started
+[IST May  6 22:25:22] error    : 'myphp' process is not running
+[IST May  6 22:25:22] info     : 'myphp' trying to restart
+[IST May  6 22:25:22] info     : 'myphp' start: '/home/jan/dev/php/pid/myprocess.php'
+[IST May  6 22:25:26] info     : Monit daemon with pid [13777] stopped
+[IST May  6 22:25:26] info     : 'jan-ThinkPad-T530' Monit 5.25.1 stopped
+[IST May  6 22:25:35] info     : Starting Monit 5.25.1 daemon
+[IST May  6 22:25:35] info     : 'jan-ThinkPad-T530' Monit 5.25.1 started
+[IST May  6 22:25:35] error    : 'myphp' mem amount of 10.3 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:25:40] error    : 'myphp' mem amount of 10.3 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:25:45] error    : 'myphp' mem amount of 10.3 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:25:50] error    : 'myphp' mem amount of 10.3 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:25:55] error    : 'myphp' mem amount of 10.3 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:26:00] error    : 'myphp' mem amount of 10.3 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:26:05] error    : 'myphp' mem amount of 10.3 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:26:10] error    : 'myphp' mem amount of 10.3 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:26:15] error    : 'myphp' mem amount of 10.3 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:26:20] error    : 'myphp' mem amount of 10.3 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:26:25] error    : 'myphp' mem amount of 10.3 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:26:30] error    : 'myphp' mem amount of 10.3 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:26:36] error    : 'myphp' mem amount of 10.3 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:26:41] error    : 'myphp' mem amount of 10.3 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:26:46] error    : 'myphp' mem amount of 10.3 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:26:51] error    : 'myphp' mem amount of 10.3 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:26:56] error    : 'myphp' process is not running
+[IST May  6 22:26:56] info     : 'myphp' trying to restart
+[IST May  6 22:26:56] info     : 'myphp' start: '/home/jan/dev/php/pid/myprocess.php'
+[IST May  6 22:26:56] info     : Monit daemon with pid [13820] stopped
+[IST May  6 22:26:56] info     : 'jan-ThinkPad-T530' Monit 5.25.1 stopped
+[IST May  6 22:27:28] info     : Starting Monit 5.25.1 daemon
+[IST May  6 22:27:28] info     : 'jan-ThinkPad-T530' Monit 5.25.1 started
+[IST May  6 22:27:28] error    : 'myphp' mem amount of 10.5 MB matches resource limit [mem amount > 100 kB]
+[IST May  6 22:27:33] error    : 'myphp' mem amount of 10.5 MB matches resource limit [mem amount > 100 kB]
+[IST May  6 22:27:38] error    : 'myphp' mem amount of 10.5 MB matches resource limit [mem amount > 100 kB]
+[IST May  6 22:27:43] error    : 'myphp' mem amount of 10.5 MB matches resource limit [mem amount > 100 kB]
+[IST May  6 22:27:48] error    : 'myphp' mem amount of 10.5 MB matches resource limit [mem amount > 100 kB]
+[IST May  6 22:27:53] error    : 'myphp' mem amount of 10.5 MB matches resource limit [mem amount > 100 kB]
+[IST May  6 22:27:58] error    : 'myphp' mem amount of 10.5 MB matches resource limit [mem amount > 100 kB]
+[IST May  6 22:28:03] error    : 'myphp' mem amount of 10.5 MB matches resource limit [mem amount > 100 kB]
+[IST May  6 22:28:08] error    : 'myphp' mem amount of 10.5 MB matches resource limit [mem amount > 100 kB]
+[IST May  6 22:28:13] error    : 'myphp' mem amount of 10.5 MB matches resource limit [mem amount > 100 kB]
+[IST May  6 22:28:18] error    : 'myphp' mem amount of 10.5 MB matches resource limit [mem amount > 100 kB]
+[IST May  6 22:28:23] error    : 'myphp' mem amount of 10.5 MB matches resource limit [mem amount > 100 kB]
+[IST May  6 22:28:28] error    : 'myphp' mem amount of 10.5 MB matches resource limit [mem amount > 100 kB]
+[IST May  6 22:28:33] error    : 'myphp' mem amount of 10.5 MB matches resource limit [mem amount > 100 kB]
+[IST May  6 22:28:38] error    : 'myphp' mem amount of 10.5 MB matches resource limit [mem amount > 100 kB]
+[IST May  6 22:28:43] error    : 'myphp' mem amount of 10.5 MB matches resource limit [mem amount > 100 kB]
+[IST May  6 22:28:48] error    : 'myphp' process is not running
+[IST May  6 22:28:48] info     : 'myphp' trying to restart
+[IST May  6 22:28:48] info     : 'myphp' start: '/home/jan/dev/php/pid/myprocess.php'
+[IST May  6 22:28:54] info     : 'myphp' process is running with pid 13845
+[IST May  6 22:28:54] error    : 'myphp' mem amount of 10.6 MB matches resource limit [mem amount > 100 kB]
+[IST May  6 22:28:59] error    : 'myphp' mem amount of 10.6 MB matches resource limit [mem amount > 100 kB]
+[IST May  6 22:29:04] error    : 'myphp' mem amount of 10.6 MB matches resource limit [mem amount > 100 kB]
+[IST May  6 22:29:09] error    : 'myphp' mem amount of 10.6 MB matches resource limit [mem amount > 100 kB]
+[IST May  6 22:29:14] error    : 'myphp' mem amount of 10.6 MB matches resource limit [mem amount > 100 kB]
+[IST May  6 22:29:19] error    : 'myphp' mem amount of 10.6 MB matches resource limit [mem amount > 100 kB]
+[IST May  6 22:29:24] error    : 'myphp' mem amount of 10.6 MB matches resource limit [mem amount > 100 kB]
+[IST May  6 22:29:29] error    : 'myphp' mem amount of 10.6 MB matches resource limit [mem amount > 100 kB]
+[IST May  6 22:29:34] error    : 'myphp' mem amount of 10.6 MB matches resource limit [mem amount > 100 kB]
+[IST May  6 22:29:39] error    : 'myphp' mem amount of 10.6 MB matches resource limit [mem amount > 100 kB]
+[IST May  6 22:29:44] error    : 'myphp' mem amount of 10.6 MB matches resource limit [mem amount > 100 kB]
+[IST May  6 22:29:49] error    : 'myphp' mem amount of 10.6 MB matches resource limit [mem amount > 100 kB]
+[IST May  6 22:29:54] error    : 'myphp' mem amount of 10.6 MB matches resource limit [mem amount > 100 kB]
+[IST May  6 22:29:59] error    : 'myphp' mem amount of 10.6 MB matches resource limit [mem amount > 100 kB]
+[IST May  6 22:30:04] error    : 'myphp' mem amount of 10.6 MB matches resource limit [mem amount > 100 kB]
+[IST May  6 22:30:09] error    : 'myphp' mem amount of 10.6 MB matches resource limit [mem amount > 100 kB]
+[IST May  6 22:30:14] error    : 'myphp' mem amount of 10.6 MB matches resource limit [mem amount > 100 kB]
+[IST May  6 22:30:19] error    : 'myphp' mem amount of 10.6 MB matches resource limit [mem amount > 100 kB]
+[IST May  6 22:30:24] error    : 'myphp' process is not running
+[IST May  6 22:30:24] info     : 'myphp' trying to restart
+[IST May  6 22:30:24] info     : 'myphp' start: '/home/jan/dev/php/pid/myprocess.php'
+[IST May  6 22:30:29] info     : 'myphp' process is running with pid 13886
+[IST May  6 22:30:29] error    : 'myphp' mem amount of 10.6 MB matches resource limit [mem amount > 100 kB]
+[IST May  6 22:30:34] error    : 'myphp' mem amount of 10.6 MB matches resource limit [mem amount > 100 kB]
+[IST May  6 22:30:39] error    : 'myphp' mem amount of 10.6 MB matches resource limit [mem amount > 100 kB]
+[IST May  6 22:30:41] info     : Monit daemon with pid [13835] stopped
+[IST May  6 22:30:41] info     : 'jan-ThinkPad-T530' Monit 5.25.1 stopped
+[IST May  6 22:31:51] info     : Starting Monit 5.25.1 daemon
+[IST May  6 22:31:51] info     : 'jan-ThinkPad-T530' Monit 5.25.1 started
+[IST May  6 22:31:51] error    : 'myphp' process is not running
+[IST May  6 22:31:51] info     : 'myphp' trying to restart
+[IST May  6 22:31:51] info     : 'myphp' start: '/home/jan/dev/php/pid/myprocess.php'
+[IST May  6 22:31:56] info     : 'myphp' process is running with pid 13903
+[IST May  6 22:31:56] error    : 'myphp' mem amount of 10.7 MB matches resource limit [mem amount > 10.5 MB]
+[IST May  6 22:31:56] info     : 'myphp' trying to restart
+[IST May  6 22:31:56] info     : 'myphp' stop: '/home/jan/dev/php/pid/myprocess.php stop'
+[IST May  6 22:32:01] info     : 'myphp' mem amount check succeeded [current mem amount = 10.4 MB]
+[IST May  6 22:32:01] error    : 'myphp' mem amount of 10.4 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:32:06] error    : 'myphp' mem amount of 10.4 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:32:11] error    : 'myphp' mem amount of 10.4 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:32:16] error    : 'myphp' mem amount of 10.4 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:32:21] error    : 'myphp' mem amount of 10.4 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:32:26] error    : 'myphp' mem amount of 10.4 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:32:31] error    : 'myphp' mem amount of 10.4 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:32:36] error    : 'myphp' mem amount of 10.4 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:32:41] error    : 'myphp' mem amount of 10.4 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:32:46] error    : 'myphp' mem amount of 10.4 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:32:51] error    : 'myphp' mem amount of 10.4 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:32:56] error    : 'myphp' mem amount of 10.4 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:33:01] error    : 'myphp' mem amount of 10.4 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:33:06] error    : 'myphp' mem amount of 10.4 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:33:11] error    : 'myphp' mem amount of 10.4 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:33:16] error    : 'myphp' mem amount of 10.4 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:33:21] error    : 'myphp' mem amount of 10.4 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:33:26] error    : 'myphp' mem amount of 10.4 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:33:31] error    : 'myphp' mem amount of 10.4 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:33:37] error    : 'myphp' mem amount of 10.4 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:33:42] error    : 'myphp' mem amount of 10.4 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:33:47] error    : 'myphp' process is not running
+[IST May  6 22:33:47] info     : 'myphp' trying to restart
+[IST May  6 22:33:47] info     : 'myphp' start: '/home/jan/dev/php/pid/myprocess.php'
+[IST May  6 22:33:52] info     : 'myphp' process is running with pid 13927
+[IST May  6 22:33:52] error    : 'myphp' mem amount of 10.3 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:33:57] error    : 'myphp' mem amount of 10.3 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:34:02] error    : 'myphp' mem amount of 10.3 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:34:07] error    : 'myphp' mem amount of 10.3 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:34:12] error    : 'myphp' mem amount of 10.3 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:34:17] error    : 'myphp' mem amount of 10.3 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:34:22] error    : 'myphp' mem amount of 10.3 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:34:27] error    : 'myphp' mem amount of 10.3 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:34:32] error    : 'myphp' mem amount of 10.3 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:34:37] error    : 'myphp' mem amount of 10.3 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:34:42] error    : 'myphp' mem amount of 10.3 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:34:47] error    : 'myphp' mem amount of 10.3 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:34:52] error    : 'myphp' process is not running
+[IST May  6 22:34:52] info     : 'myphp' trying to restart
+[IST May  6 22:34:52] info     : 'myphp' start: '/home/jan/dev/php/pid/myprocess.php'
+[IST May  6 22:34:57] info     : 'myphp' process is running with pid 13941
+[IST May  6 22:34:57] error    : 'myphp' mem amount of 10.5 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:35:02] error    : 'myphp' mem amount of 10.5 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:35:07] error    : 'myphp' mem amount of 10.5 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:35:12] error    : 'myphp' mem amount of 10.5 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:35:17] error    : 'myphp' mem amount of 10.5 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:35:22] error    : 'myphp' mem amount of 10.5 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:35:28] error    : 'myphp' mem amount of 10.5 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:35:33] error    : 'myphp' mem amount of 10.5 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:35:38] error    : 'myphp' process is not running
+[IST May  6 22:35:38] info     : 'myphp' trying to restart
+[IST May  6 22:35:38] info     : 'myphp' start: '/home/jan/dev/php/pid/myprocess.php'
+[IST May  6 22:35:43] info     : 'myphp' process is running with pid 13975
+[IST May  6 22:35:43] error    : 'myphp' mem amount of 10.3 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:35:48] error    : 'myphp' mem amount of 10.3 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:35:52] info     : Monit daemon with pid [13901] stopped
+[IST May  6 22:35:52] info     : 'jan-ThinkPad-T530' Monit 5.25.1 stopped
+[IST May  6 22:36:01] info     : Starting Monit 5.25.1 daemon
+[IST May  6 22:36:01] info     : 'jan-ThinkPad-T530' Monit 5.25.1 started
+[IST May  6 22:36:01] error    : 'myphp' mem amount of 10.3 MB matches resource limit [mem amount > 10.3 MB]
+[IST May  6 22:36:01] info     : 'myphp' trying to restart
+[IST May  6 22:36:01] info     : 'myphp' stop: '/home/jan/dev/php/pid/myprocess.php stop'
+[IST May  6 22:36:07] info     : 'myphp' mem amount check succeeded [current mem amount = 10.3 MB]
+[IST May  6 22:36:07] error    : 'myphp' mem amount of 10.3 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:36:12] error    : 'myphp' mem amount of 10.3 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:36:17] error    : 'myphp' mem amount of 10.3 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:36:22] error    : 'myphp' mem amount of 10.3 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:36:27] error    : 'myphp' mem amount of 10.3 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:36:32] error    : 'myphp' mem amount of 10.3 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:36:37] error    : 'myphp' mem amount of 10.3 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:36:42] error    : 'myphp' mem amount of 10.3 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:36:47] error    : 'myphp' mem amount of 10.3 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:36:52] error    : 'myphp' mem amount of 10.3 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:36:57] error    : 'myphp' mem amount of 10.3 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:37:02] error    : 'myphp' mem amount of 10.3 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:37:07] error    : 'myphp' mem amount of 10.3 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:37:12] error    : 'myphp' mem amount of 10.3 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:37:17] error    : 'myphp' mem amount of 10.3 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:37:22] error    : 'myphp' mem amount of 10.3 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:37:27] error    : 'myphp' mem amount of 10.3 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:37:32] error    : 'myphp' mem amount of 10.3 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:37:37] error    : 'myphp' mem amount of 10.3 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:37:42] error    : 'myphp' mem amount of 10.3 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:37:47] error    : 'myphp' mem amount of 10.3 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:37:52] error    : 'myphp' mem amount of 10.3 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:37:57] error    : 'myphp' mem amount of 10.3 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:38:02] error    : 'myphp' mem amount of 10.3 MB matches resource limit [mem amount > 10 MB]
+[IST May  6 22:38:07] error    : 'myphp' process is not running
+[IST May  6 22:38:07] info     : 'myphp' trying to restart
+[IST May  6 22:38:07] info     : 'myphp' start: '/home/jan/dev/php/pid/myprocess.php'
+[IST May  6 22:38:13] info     : 'myphp' process is running with pid 14010
+[IST May  6 22:38:13] error    : 'myphp' mem amount of 10.5 MB matches resource limit [mem amount > 10.3 MB]
+[IST May  6 22:38:13] info     : 'myphp' trying to restart
+[IST May  6 22:38:13] info     : 'myphp' stop: '/home/jan/dev/php/pid/myprocess.php stop'
+[IST May  6 22:38:18] error    : 'myphp' mem amount of 10.6 MB matches resource limit [mem amount > 10.3 MB]
+[IST May  6 22:38:18] info     : 'myphp' trying to restart
+[IST May  6 22:38:18] info     : 'myphp' stop: '/home/jan/dev/php/pid/myprocess.php stop'
+[IST May  6 22:38:23] error    : 'myphp' mem amount of 10.6 MB matches resource limit [mem amount > 10.3 MB]
+[IST May  6 22:38:23] info     : 'myphp' trying to restart
+[IST May  6 22:38:23] info     : 'myphp' stop: '/home/jan/dev/php/pid/myprocess.php stop'
+[IST May  6 22:38:28] error    : 'myphp' mem amount of 10.6 MB matches resource limit [mem amount > 10.3 MB]
+[IST May  6 22:38:28] info     : 'myphp' trying to restart
+[IST May  6 22:38:28] info     : 'myphp' stop: '/home/jan/dev/php/pid/myprocess.php stop'
+[IST May  6 22:38:33] error    : 'myphp' mem amount of 10.4 MB matches resource limit [mem amount > 10.3 MB]
+[IST May  6 22:38:33] info     : 'myphp' trying to restart
+[IST May  6 22:38:33] info     : 'myphp' stop: '/home/jan/dev/php/pid/myprocess.php stop'
+[IST May  6 22:38:39] error    : 'myphp' mem amount of 10.4 MB matches resource limit [mem amount > 10.3 MB]
+[IST May  6 22:38:39] info     : 'myphp' trying to restart
+[IST May  6 22:38:39] info     : 'myphp' stop: '/home/jan/dev/php/pid/myprocess.php stop'
+[IST May  6 22:38:44] error    : 'myphp' mem amount of 10.3 MB matches resource limit [mem amount > 10.3 MB]
+[IST May  6 22:38:44] info     : 'myphp' trying to restart
+[IST May  6 22:38:44] info     : 'myphp' stop: '/home/jan/dev/php/pid/myprocess.php stop'
+[IST May  6 22:38:49] error    : 'myphp' mem amount of 10.3 MB matches resource limit [mem amount > 10.3 MB]
+[IST May  6 22:38:49] info     : 'myphp' trying to restart
+[IST May  6 22:38:49] info     : 'myphp' stop: '/home/jan/dev/php/pid/myprocess.php stop'
+[IST May  6 22:38:54] error    : 'myphp' mem amount of 10.5 MB matches resource limit [mem amount > 10.3 MB]
+[IST May  6 22:38:54] info     : 'myphp' trying to restart
+[IST May  6 22:38:54] info     : 'myphp' stop: '/home/jan/dev/php/pid/myprocess.php stop'
+[IST May  6 22:39:00] error    : 'myphp' mem amount of 10.5 MB matches resource limit [mem amount > 10.3 MB]
+[IST May  6 22:39:00] info     : 'myphp' trying to restart
+[IST May  6 22:39:00] info     : 'myphp' stop: '/home/jan/dev/php/pid/myprocess.php stop'
+[IST May  6 22:39:05] error    : 'myphp' mem amount of 10.4 MB matches resource limit [mem amount > 10.3 MB]
+[IST May  6 22:39:05] info     : 'myphp' trying to restart
+[IST May  6 22:39:05] info     : 'myphp' stop: '/home/jan/dev/php/pid/myprocess.php stop'
+[IST May  6 22:39:10] error    : 'myphp' mem amount of 10.5 MB matches resource limit [mem amount > 10.3 MB]
+[IST May  6 22:39:10] info     : 'myphp' trying to restart
+[IST May  6 22:39:10] info     : 'myphp' stop: '/home/jan/dev/php/pid/myprocess.php stop'
+[IST May  6 22:39:15] error    : 'myphp' mem amount of 10.3 MB matches resource limit [mem amount > 10.3 MB]
+[IST May  6 22:39:15] info     : 'myphp' trying to restart
+[IST May  6 22:39:15] info     : 'myphp' stop: '/home/jan/dev/php/pid/myprocess.php stop'
+[IST May  6 22:39:21] error    : 'myphp' mem amount of 10.4 MB matches resource limit [mem amount > 10.3 MB]
+[IST May  6 22:39:21] info     : 'myphp' trying to restart
+[IST May  6 22:39:21] info     : 'myphp' stop: '/home/jan/dev/php/pid/myprocess.php stop'
+[IST May  6 22:39:26] error    : 'myphp' mem amount of 10.4 MB matches resource limit [mem amount > 10.3 MB]
+[IST May  6 22:39:26] info     : 'myphp' trying to restart
+[IST May  6 22:39:26] info     : 'myphp' stop: '/home/jan/dev/php/pid/myprocess.php stop'
+[IST May  6 22:39:31] error    : 'myphp' mem amount of 10.4 MB matches resource limit [mem amount > 10.3 MB]
+[IST May  6 22:39:31] info     : 'myphp' trying to restart
+[IST May  6 22:39:31] info     : 'myphp' stop: '/home/jan/dev/php/pid/myprocess.php stop'
+[IST May  6 22:39:36] error    : 'myphp' mem amount of 10.4 MB matches resource limit [mem amount > 10.3 MB]
+[IST May  6 22:39:36] info     : 'myphp' trying to restart
+[IST May  6 22:39:36] info     : 'myphp' stop: '/home/jan/dev/php/pid/myprocess.php stop'
+[IST May  6 22:39:42] error    : 'myphp' mem amount of 10.6 MB matches resource limit [mem amount > 10.3 MB]
+[IST May  6 22:39:42] info     : 'myphp' trying to restart
+[IST May  6 22:39:42] info     : 'myphp' stop: '/home/jan/dev/php/pid/myprocess.php stop'
+[IST May  6 22:39:47] error    : 'myphp' mem amount of 10.6 MB matches resource limit [mem amount > 10.3 MB]
+[IST May  6 22:39:47] info     : 'myphp' trying to restart
+[IST May  6 22:39:47] info     : 'myphp' stop: '/home/jan/dev/php/pid/myprocess.php stop'
+[IST May  6 22:39:52] error    : 'myphp' mem amount of 10.4 MB matches resource limit [mem amount > 10.3 MB]
+[IST May  6 22:39:52] info     : 'myphp' trying to restart
+[IST May  6 22:39:52] info     : 'myphp' stop: '/home/jan/dev/php/pid/myprocess.php stop'
+[IST May  6 22:39:57] error    : 'myphp' mem amount of 10.4 MB matches resource limit [mem amount > 10.3 MB]
+[IST May  6 22:39:57] info     : 'myphp' trying to restart
+[IST May  6 22:39:57] info     : 'myphp' stop: '/home/jan/dev/php/pid/myprocess.php stop'
+[IST May  6 22:40:03] error    : 'myphp' mem amount of 10.3 MB matches resource limit [mem amount > 10.3 MB]
+[IST May  6 22:40:03] info     : 'myphp' trying to restart
+[IST May  6 22:40:03] info     : 'myphp' stop: '/home/jan/dev/php/pid/myprocess.php stop'
+[IST May  6 22:40:03] info     : Monit daemon with pid [13983] stopped
+[IST May  6 22:40:03] info     : 'jan-ThinkPad-T530' Monit 5.25.1 stopped

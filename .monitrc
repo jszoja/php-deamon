@@ -1,0 +1,8 @@
+set daemon 5
+set logfile /home/jan/dev/php/pid/monit.log
+
+CHECK process myphp with pidfile "/home/jan/dev/php/pid/myprocess.pid"
+    start program =  "/home/jan/dev/php/pid/myprocess.php"
+    stop program = "/home/jan/dev/php/pid/myprocess.php stop"
+    if memory usage > 10 MB then alert
+    if memory usage > 10.3 MB then restart
