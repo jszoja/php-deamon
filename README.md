@@ -5,3 +5,13 @@ Run the bellow command which will figure out that php process is not running and
 ```bash
 monit -c .monitrc -I
 ```
+
+# myprocess.php
+Demonstrates the concept of concurrent threads and job queue
+
+- defined number of threads pulls the single job from the queue
+- process waits for the all the threads to finish first
+- then it start forking new threads to pull the rest of the jobs
+
+## Todo
+Don't wait for the all threads to finish, but fork as soon as any thread is done
