@@ -1,4 +1,4 @@
-set daemon 5
+set daemon 30
 set logfile /home/jan/dev/php/pid/monit.log
 
 CHECK process myphp with pidfile "/home/jan/dev/php/pid/myprocess.pid"
