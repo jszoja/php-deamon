@@ -1,10 +1,11 @@
 #!/usr/bin/php -q
 <?php
-define( 'NO_JOBS', 8 );
-define( 'MIN_JOB_TIME', 3 );
+define( 'NO_JOBS', 20 );
+define( 'MIN_JOB_TIME', 1 );
 define( 'MAX_JOB_TIME', 8 );
 define( 'PID_FILE', './myprocess.pid' );
-define( 'CONCURRENT_THREADS', 2 );
+define( 'CONCURRENT_THREADS', 6 );
+define( 'ERROR_PROBABILITY', 15 ); // 0-100
 
 // stop process gracefully or kill it
 if( $argc > 1 && ! empty($argv[1] )  ) {
@@ -16,37 +17,91 @@ if( $argc > 1 && ! empty($argv[1] )  ) {
     exit;
 }
 
-for( $t=0; $t<CONCURRENT_THREADS; $t++ )
-{
-    // fork the process to a separate one with the new $mypid id
-    $mypid = pcntl_fork();
-
-    // parent/main process logic:
-    // store the childs pid and leave
-    if( $mypid > 0 ) {
-        file_put_contents( PID_FILE.$t, $mypid );
-    }
-
-    else
-        break;
-
-}
-
 $logFile = fopen( 'process_output.log', 'a+' );
-if( $mypid > 0 )
-{
-    // wait for exit
-    logMsg("START concurrent process loop");
-    for( $t=0; $t<CONCURRENT_THREADS; $t++ ) {
-        $status = null;
-        pcntl_wait( $status );
-        logMsg("Process #{$mypid} finished with status {$status}");  
+$startTs = time();
+
+// number of jobs to dispatch among threads
+$noJobs = NO_JOBS; // rand( 3, NO_JOBS );
+$jobsQueue = range( 1, $noJobs );
+// jobs loop
+logMsg( "\n", true );
+logMsg( "START job queue with {$noJobs} - Memory usage: ".getMemUsage() );
+
+do {
+    if( empty($mypid) || $mypid > 0 )
+        logMsg("START concurrent process loop");
+
+    for( $t=0; $t<CONCURRENT_THREADS; $t++ )
+    {
+        if( ! empty($mypid) && $mypid > 0 )
+        {
+            if( empty($jobsQueue) ) {
+                logMsg( "No more jobs. Leaving..." );
+                break;
+            }
+        }
+        
+        // fork the process to a separate one with the new $mypid id
+        $mypid = pcntl_fork();
+        
+        // store the childs pid
+        if( $mypid > 0 ) {
+            file_put_contents( PID_FILE.$t, $mypid );
+            // remove job from the queue
+            $removedJob = array_shift($jobsQueue);
+            logMsg("Removed job #{$removedJob} from the queue.");
+        }
+        
+        // child process always exits from the loop
+        // and continue with its logic after the loop
+        else
+            break 2;
+
     }
-    logMsg("END concurrent process loop");
+
+    if( $mypid > 0 ) {
+
+        logMsg("Waiting for {$t} children to finish...");
+
+        // parent/main process logic:
+        // wait for exit
+        for( $t2=0; $t2<$t; $t2++ ) {
+            $status = null;
+            logMsg("Waiting for child {$t2}...");
+            $childPid = pcntl_wait( $status );
+            logMsg("Process #{$childPid} finished with status {$status}");  
+        }
+
+        logMsg("END concurrent process loop");
+    }
+    
+} while( ! empty( $jobsQueue ) );
+
+if( $mypid > 0 ) {
+    $duration = time()-$startTs;
+    logMsg( "END job queue - {$duration}s" );
+
+    exit;
 }
+
 
 // ------- FORKED PROCESS LOGIC --------
+$jobId = array_shift( $jobsQueue );
+$myarr = [];
+$time = rand( MIN_JOB_TIME, MAX_JOB_TIME );
+logMsg( "Job #{$jobId} working for {$time}s:" );
+for( $j=0; $j<$time; $j++ )
+{
+    $myarr = array_merge( $myarr, range( 1, 50000 ) );
+    sleep(1);
+}
+if( ERROR_PROBABILITY > 0 && rand( 1, 100 ) < ERROR_PROBABILITY )
+    throw new Exception("Unknown error occurred...");
+logMsg( "Job #{$jobId} finished: Size ".count($myarr)."; Memory usage: ".getMemUsage() );
+fclose($logFile);
+pcntl_signal_dispatch();
 
+// ===========================================
 function logMsg( $msg, $raw=false )
 {
     global $logFile;
@@ -68,25 +123,3 @@ pcntl_signal(SIGHUP,  function($signo) use ( $logFile ) {
     fclose( $logFile );
     exit;
 });
-$myarr = [];
-
-// jobs loop
-logMsg( "\n", true );
-$noJobs = rand( 1, NO_JOBS );
-logMsg( "START job queue with {$noJobs} - Memory usage: ".getMemUsage() );
-for( $i=0; $i<$noJobs; $i++ )
-{
-    $time = rand( MIN_JOB_TIME, MAX_JOB_TIME );
-    logMsg( "Job #{$i} working for {$time}s:" );
-    for( $j=0; $j<$time; $j++ )
-    {
-        $myarr = array_merge( $myarr, range( 1, 50000 ) );
-        sleep(1);
-    }
-    if( rand( 1, 100 ) < 16 )
-        throw new Exception("Unknown error occurred...");
-    logMsg( "Job #{$i} finished: Size ".count($myarr)."; Memory usage: ".getMemUsage()."\n" );
-    pcntl_signal_dispatch();
-}
-logMsg( "END job queue..." );
-fclose($logFile);
