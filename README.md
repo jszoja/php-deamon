@@ -13,7 +13,7 @@ Demonstrates the concept of concurrent threads and job queue
 - process waits for the all the threads to finish first
 - then it start forking new threads to pull the rest of the jobs
 
-# monitrc
+# monitrc2
 Sample configuration demonstating how to keep multiple processess alive(app.php) with timeout option.
 If process is not finished in 20sec it will be restarted.
 
