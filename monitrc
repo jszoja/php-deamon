@@ -1,0 +1,19 @@
+
+set init
+set daemon 5
+set logfile /home/jan/dev/ci/monit/monit.log
+
+check process myapp1 with pidfile /home/jan/dev/ci/monit/app1.pid
+    start program = "/usr/bin/php /home/jan/dev/ci/monit/app.php 1"
+    stop program = "/usr/bin/php /home/jan/dev/ci/monit/app.php 1 stop"
+    if uptime > 20 seconds then restart
+
+check process myapp2 with pidfile /home/jan/dev/ci/monit/app2.pid
+    start program = "/usr/bin/php /home/jan/dev/ci/monit/app.php 2"
+    stop program = "/usr/bin/php /home/jan/dev/ci/monit/app.php 2 stop"
+    if uptime > 20 seconds then restart
+
+check process myapp3 with pidfile /home/jan/dev/ci/monit/app3.pid
+    start program = "/usr/bin/php /home/jan/dev/ci/monit/app.php 3"
+    stop program = "/usr/bin/php /home/jan/dev/ci/monit/app.php 3 stop"
+    if uptime > 20 seconds then restart
